@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "stage-deck",
+    "slug": "stage-deck",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon_light.png",
+    "scheme": "stagedeck",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "requireFullScreen": true,
+      "icon": {
+        "light": "./assets/icon_light.png",
+        "dark": "./assets/icon_dark.png",
+        "tinted": "./assets/icon_dark.png"
+      },
+      "bundleIdentifier": "de.kinnay.stagedeck",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF",
+        "foregroundImage": "./assets/icon_light.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "de.kinnay.stagedeck"
+    },
+    "plugins": [
+      "expo-router",
+      "@react-native-community/datetimepicker",
+      "expo-asset",
+      "expo-sharing",
+      "@config-plugins/react-native-blob-util",
+      "@config-plugins/react-native-pdf"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b0613e45-3457-43c1-818a-fdac2f69ec9b"
+      }
+    },
+    "owner": "kinnay"
+  }
+}
