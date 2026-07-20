@@ -48,5 +48,3 @@ npm run android
 - `npm test` — run unit tests (Jest)
 - `npm run lint` — ESLint via `expo lint`
 - `npm run format` — Prettier
-
-See `backlog.md` for planned work and known issues.
